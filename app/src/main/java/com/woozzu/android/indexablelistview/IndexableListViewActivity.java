@@ -1,9 +1,5 @@
 package com.woozzu.android.indexablelistview;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
@@ -12,6 +8,10 @@ import android.widget.SectionIndexer;
 
 import com.woozzu.android.util.StringMatcher;
 import com.woozzu.android.widget.IndexableListView;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class IndexableListViewActivity extends Activity {
 	private ArrayList<String> mItems;
